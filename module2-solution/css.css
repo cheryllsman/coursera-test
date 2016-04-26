@@ -1,0 +1,72 @@
+* {	
+	box-sizing: border-box;
+}
+
+.paragraph{
+	padding:10px; 
+	border:3px solid black;
+	height:100px;
+	overflow:auto;
+	margin-right:2%;
+	margin-bottom:5px;
+	float:left;
+	background-color: gray;
+	padding:0px;
+	position: relative;
+	font-family: georgia; 
+}
+
+.title {
+	font-size:30px;
+	text-align: center;
+	width: 90px;
+	height: 35px;
+	background-color: yellow;
+	border: 0px;
+	padding:0px;
+	position: absolute;
+	top:0px;
+	right: 0px;
+}
+.imaginerybox{
+	height: 37px
+}
+
+
+/*Desktop device*/
+@media (min-width:992px) {
+#p1 {
+	float:left;
+	width:30%;
+}
+#p2 {
+	float:left;
+	width:30%;
+}
+#p3 {
+	float:left;
+	width:30%;
+}
+}
+
+/*tablet device*/
+@media (min-width:768px) and (max-width: 991px) {
+#p1 {
+	width:45%;
+	float:left;
+}
+
+
+#p2 {
+	width:45%;
+	float:left;
+}
+
+#p3 {
+	width:92%;
+	height:100px;
+}
+}
+
+/*mobile device*/
+@media (max-width: 767px)
