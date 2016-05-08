@@ -1,0 +1,14 @@
+h1 {
+	margin-top: 70px;
+}
+
+.subhead {
+	font-size: 20px;
+	text-align:center;
+	line-height: 40px;
+}
+
+.categories {
+	background-color: #c0fff4; 
+	margin: 10px 15px 10px 15px;
+}
